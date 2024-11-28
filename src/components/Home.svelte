@@ -5,6 +5,21 @@
 </svelte:head>
 
 
+<script>
+
+    import Slider from "./Slider.svelte";
+</script>
+
+<main> 
+   
+    <div>
+
+        <Slider />
+    </div>
+   
+
+</main>
+
 
 
 

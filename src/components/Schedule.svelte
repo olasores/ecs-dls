@@ -2,19 +2,18 @@
 
     // this is for your javascrip code
     
-    </script>
+</script>
     
-    
-    <main>
+<main>
         <h1> 
             HELLOO THIS IS THE Schedule PAGE
         </h1>
        
          <!-- this is the main section for the html code  -->
     
-    </main>
+</main>
     
-    <style>
+<style>
         /* this is the style section  */
     
-    </style>
+</style>

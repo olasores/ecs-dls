@@ -30,11 +30,11 @@
     </NavBrand>
     <NavHamburger />
     <NavUl {activeUrl}>
-      <NavLi href="/"> <span>Home</span></NavLi>
-      <NavLi href="/council"> <span class="text-white"> Council </span ></NavLi>
-      <NavLi href="/venue"> <span> Venue</span></NavLi>
-      <NavLi class="cursor-pointer" href="/schedule">
-        Schedule<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800  inline" />
+      <NavLi href="/"> <span class="text-black md:text-white">Home</span></NavLi>
+      <NavLi href="/council"> <span class="text-black md:text-white"> Council </span ></NavLi>
+      <NavLi href="/venue"> <span class="text-black md:text-white"> Venue</span></NavLi>
+      <NavLi class="cursor-pointer" href="/schedule"> <span class="text-black md:text-white">Schedule</span>
+        <ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800  inline" />
       </NavLi>
     
 
@@ -43,8 +43,8 @@
         <DropdownItem href="/workshops"> Workshops</DropdownItem>
       </Dropdown>
 
-      <NavLi href="/24"> <span>2024</span></NavLi>
-      <NavLi href="/23"> <span>2023</span> </NavLi>
+      <NavLi href="/24"> <span class="text-black md:text-white">2024</span></NavLi>
+      <NavLi href="/23"> <span class="text-black md:text-white">2023</span> </NavLi>
       <!-- <NavLi href="/contact">Contact</NavLi> -->
     </NavUl>
   </Navbar>
@@ -54,12 +54,13 @@
 
 
 <style>
-  span {
+  /* span {
     color: white; 
     
-  }
+  } */
   span:hover {
     color: #FF914C;
   }
+
 
 </style>
