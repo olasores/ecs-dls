@@ -8,12 +8,17 @@
 <script>
     
     import Slider from "./sliders/Slider.svelte";
-
+    import EventSchedule from "./Schedule/EventSchedule.svelte";
+    import Sponsors from "./sponsors/Sponsors.svelte";
+    import HGallery from "./Gallery/HGallery.svelte";
     import Countdown from "./countdown/Countdown.svelte";
+    import NewGal from "./Gallery/NewGal.svelte";
     
 
     // icons https://feathericons.com/, https://github.com/unplugin/unplugin-icons
     import { ComputerSpeakerSolid } from "flowbite-svelte-icons";
+	import Gallery from "./Gallery/HGallery.svelte";
+
 
 </script>
 <main class="min-h-screen">
@@ -23,13 +28,14 @@
 </section>
   
     <!-- Countdown Section with Curved Top -->
-    <section class="bg-white w-full rounded-t-[100px] p-10  overflow-hidden relative -mt-[100px]">
+    <section class="bg-white w-full rounded-t-[100px] rounded-b-[100px] p-10  overflow-hidden relative -mt-[100px]">
       <div class="flex justify-center items-center">
         <h1 class="text-3xl font-bold mb-8 mr-20">
           The Countdown <span class="text-orange-300 text-3xl">begins</span>
         </h1>
         <Countdown />
       </div>
+
     </section>
 
 
@@ -57,7 +63,7 @@
 
       <!-- Event theme -->
       <section
-      class="relative p-10 flex flex-col justify-center items-center text-center bg-cover bg-center"
+      class=" rounded-[100px] relative p-10 flex flex-col justify-center items-center text-center bg-cover bg-center"
       style="background-image: url('/assets/background.png');">
       <div class="absolute inset-0"></div>
       
@@ -108,16 +114,32 @@
           </div>
         </div>
       </div>
+
     </section>
     
       
       
       
-      
-
-    <!-- Event Schedule        -->
-
+<!-- Event Schedule -->
+    <section class="px-4 py-8">
     
+        <EventSchedule />
+
+    </section>
+    <!-- speakers -->
+
+    <!-- our partners  -->
+    <section>
+            <Sponsors />
+    </section>
+
+    <!-- gallery  -->
+
+    <section class="mt-5">
+        <!-- <HGallery /> -->
+        <NewGal />
+    </section>
+        
 
 
   </main>
