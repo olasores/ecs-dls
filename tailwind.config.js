@@ -15,6 +15,7 @@ export default {
   darkMode: 'selector',
   theme: {
     extend: {
+      
       colors: {
         // flowbite-svelte
         primary: {
@@ -29,7 +30,11 @@ export default {
           800: '#FF914C',
           900: '#FF914C'
         }
-      }
+      },
+      fontFamily: {
+        judson: ['Judson', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
     }
   },
   plugins: [flowbitePlugin]
