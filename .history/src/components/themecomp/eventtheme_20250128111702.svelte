@@ -1,0 +1,3 @@
+<script> 
+    const eventTheme
+</script>
