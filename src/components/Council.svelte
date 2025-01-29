@@ -17,21 +17,54 @@
     import Grid from "./grids/Grid.svelte";
 
     // Import Images for the Members
-    import coordinatorImage1 from "../teamPhotos/pfp.png";
-    import coordinatorImage2 from "../teamPhotos/pfp.png";
+    import blankpfp from "../teamPhotos/blankpfp.jpg";
+    import alexia from "../teamPhotos/Alexia.jpg";
+    import beth from "../teamPhotos/Beth.png";
+    import carrie from "../teamPhotos/Carrie.jpeg";
+    import celine from "../teamPhotos/Celine.jpg";
+    import fiona from "../teamPhotos/fiona.jpg";
+    import joann from "../teamPhotos/Joann.jpg";
+    import karina from "../teamPhotos/Karina.jpg";
+    import keang from "../teamPhotos/Keang.jpg";
+    import kristine from "../teamPhotos/Kristine.jpg";
+    import kelsey from "../teamPhotos/Kelsey.jpg";
+    import khushi from "../teamPhotos/Khushi.jpg";
+    import lupita from "../teamPhotos/Lupita.jpg";
+    import manasi from "../teamPhotos/Manasi.jpg";
+    import ola from "../teamPhotos/Ola.jpg";
+    import suhana from "../teamPhotos/Suhana.jpeg";
+    import riya from "../teamPhotos/Riya.jpg";
+    import taylor from "../teamPhotos/Taylor.jpg";
 
-    // Lists of Members
+    const coCoordinators = [
+        { name: 'Lupita Jumenez', role: 'Co-Lead Coordinator', pronouns: '(She/Her)', image: lupita },
+        { name: 'Manasi Patil', role: 'Co-Lead Coordinator', pronouns: '(She/Her)', image: manasi },
+    ]
+
     const coordinators = [
-        { name: 'John Doe', role: 'Event Coordinator', image: coordinatorImage1 },
-        { name: 'Jane Smith', role: 'Lead Coordinator', image: coordinatorImage2 },
-        { name: 'John Doe', role: 'Event Coordinator', image: coordinatorImage1 },
-        { name: 'Jane Smith', role: 'Lead Coordinator', image: coordinatorImage2 },
-        { name: 'John Doe', role: 'Event Coordinator', image: coordinatorImage1 },
-        { name: 'Jane Smith', role: 'Lead Coordinator', image: coordinatorImage2 },
-        { name: 'John Doe', role: 'Event Coordinator', image: coordinatorImage1 },
-        { name: 'Jane Smith', role: 'Lead Coordinator', image: coordinatorImage2 },
-        { name: 'John Doe', role: 'Event Coordinator', image: coordinatorImage1 },
-        { name: 'Jane Smith', role: 'Lead Coordinator', image: coordinatorImage2 },
+        { name: 'Taylor Livingston', role: 'Lead Student Advisor', pronouns: '(She/Her)', image: taylor },
+        { name: 'Oyinkansola Olayinka', role: 'Web Development Team Lead', pronouns: '(She/Her)', image: ola },
+        { name: 'Riya Jain', role: 'Industry Outreach Team Lead', pronouns: '(She/Her)', image: riya },
+        { name: 'Khushi Kaushik', role: 'Student Outreach Team Lead', pronouns: '(She/Her)', image: khushi },
+        { name: 'Fiona Keaney', role: 'Social Media Team Lead', pronouns: '(She/Her)', image: fiona },
+        { name: 'Kelsey Tang', role: 'Operations Team Lead', pronouns: '(She/Her)', image: kelsey },
+    ];
+
+    const advisors = [
+        { name: 'Beth Harnick-Shapiro', role: 'Faculty Advisor', pronouns: '(She/Her)', image: beth },
+        { name: 'Karina Vega', role: 'Staff Advisor & Operations Team Member', pronouns: '(She/Her)', image: karina }, 
+        { name: 'Toni Miller', role: 'Staff Advisor', pronouns: '(She/Her)', image: blankpfp }, 
+    ];
+
+    const councilMembers = [
+        { name: 'Keang Zheng Taing', role: 'Operations and Outreach Team Member', pronouns: '(He/Him)', image: keang },
+        { name: 'Kristine Vergara', role: 'Counsel Member', pronouns: '(She/Her)', image: kristine }, 
+        { name: 'Alexia Riley', role: 'Social Media & Outreach Team Member', pronouns: '(They/Them)', image: alexia },
+        { name: 'Celine Troung', role: 'Operations Team Member', pronouns: '(She/Her)', image: celine }, 
+        { name: 'Lori Cha', role: 'Web Development Team Member', pronouns: '(She/Her)', image: blankpfp },
+        { name: 'Suhana Natalia', role: 'Operations Team Member', pronouns: '(She/Her)', image: suhana },
+        { name: 'Carrie Appelt', role: 'Outreach Team Member', pronouns: '(She/Her)', image: carrie },
+        { name: 'Joann Sum', role: 'Operations Team Member', pronouns: '(She/Her)', image: joann },
     ];
 
 </script>
@@ -43,23 +76,23 @@
 </section>   
 
 <!-- COORDINATORS -->
-<section class="p-12">
-    <Grid teamTitle="Coordinators" team={coordinators} />
+<section class="p-12 px-56">
+    <Grid teamTitle="Coordinators" team={coCoordinators} />
 </section>
 
 <!-- Team Leads -->
-<section class="p-12">
-    <Grid teamTitle="Team Leads" team={coordinators} />
+<section class="p-12 px-56">
+    <Grid teamTitle="" team={coordinators} />
 </section>
 
 <!-- Faculty Advisors -->
-<section class="p-12">
-    <Grid teamTitle="Faculty Advisors" team={coordinators} />
+<section class="p-12 px-56">
+    <Grid teamTitle="Faculty Advisors" team={advisors} />
 </section>
 
 <!-- Council Members -->
-<section class="p-12">
-    <Grid teamTitle="Council Members" team={coordinators} />
+<section class="p-12 px-56">
+    <Grid teamTitle="Council Members" team={councilMembers} />
 </section>
 
 </main>
