@@ -33,9 +33,9 @@
     }, 
     {
       name: "Hilary Arocho",
-      // role: "Pathway Project Coordinator",
-      company: "Campos ",
-      image: "assets/hillary.png",
+      role: "Pathway Project Coordinator",
+      company: "California State University Fullerton ",
+      image: "assets/guz.jpg",
     
     }, 
   ];

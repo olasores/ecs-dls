@@ -33,9 +33,9 @@
     }, 
     {
       name: "Hilary Arocho",
-      // role: "Pathway Project Coordinator",
+      role: "Pathway Project Coordinator",
       company: "Campos ",
-      image: "assets/hillary.png",
+      image: "assets/guz.jpg",
     
     }, 
   ];
