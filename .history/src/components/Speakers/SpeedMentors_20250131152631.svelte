@@ -22,7 +22,8 @@
       company: "Mercury Systems",
       role: "Mechanical Engineer II",
       image: "assets/Marco.png",
-    }, 
+    }
+
     
     {
       name: "Arthur Guzman",

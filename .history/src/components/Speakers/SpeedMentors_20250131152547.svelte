@@ -11,6 +11,15 @@
     //   mentorshipAreas: ["Career Guidance", "Research Direction", "Technology Selection"]
     // },
 
+    
+    {
+      name: "Arthur Guzman",
+      role: "Pathway Project Coordinator",
+      company: "California State University Fullerton ",
+      expertise: ["Leadership", "Team Building", "Tech Strategy"],
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      mentorshipAreas: ["Career Development", "Technical Leadership", "Project Management"]
+    }, 
     {
       name: "Lauren DuCharme",
       role: "Fault Protection Systems Engineer",
@@ -22,15 +31,7 @@
       company: "Mercury Systems",
       role: "Mechanical Engineer II",
       image: "assets/Marco.png",
-    }, 
-    
-    {
-      name: "Arthur Guzman",
-      role: "Pathway Project Coordinator",
-      company: "California State University Fullerton ",
-      image: "assets/guz.jpg",
-    
-    }, 
+    }
   ];
 
 </script>

@@ -22,15 +22,7 @@
       company: "Mercury Systems",
       role: "Mechanical Engineer II",
       image: "assets/Marco.png",
-    }, 
-    
-    {
-      name: "Arthur Guzman",
-      role: "Pathway Project Coordinator",
-      company: "California State University Fullerton ",
-      image: "assets/guz.jpg",
-    
-    }, 
+    }
   ];
 
 </script>
