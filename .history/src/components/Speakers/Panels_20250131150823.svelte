@@ -4,10 +4,11 @@
 
   {
       name: "Feli Michaca",
-      company: "Managed Solution",
       role: "Senior Field Engineer and Brand Ambassador ",
+      company: "Managed Solution",
       image: "assets/feli.png",
-        },
+      panel: "Cybersecurity Challenges in Modern Enterprise"
+    },
     // {
     //   name: "Nicole Traboulsi",
     //   role: "Senior Vulnerability Management Automation Engineer ",

@@ -4,8 +4,8 @@
 
   {
       name: "Feli Michaca",
-      company: "Managed Solution",
       role: "Senior Field Engineer and Brand Ambassador ",
+      company: "Managed Solution",
       image: "assets/feli.png",
         },
     // {

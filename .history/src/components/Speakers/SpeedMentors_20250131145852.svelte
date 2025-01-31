@@ -25,12 +25,6 @@
       role: "Fault Protection Systems Engineer",
       company: "NASA Jet Propulsion Laboratory",
       image: "assets/lauren.png",
-    }, 
-    {
-      name: "Marco Ramirez",
-      company: "Mercury Systems",
-      role: "Mechanical Engineer II",
-      image: "assets/Marco.png",
     }
   ];
 
@@ -73,9 +67,15 @@
                 <h3 class="text-lg font-bold text-gray-800 mb-1">{speaker.name}</h3>
                 <p class="text-orange-600 font-medium text-sm mb-1">{speaker.role}</p>
                 <p class="text-gray-600 text-sm mb-2">{speaker.company}</p>
-               
+                <h4 class="text-gray-800 font-medium text-sm mb-1">Mentorship Areas:</h4>
                 
-               
+                <div class="flex flex-wrap gap-1">
+                  {#each speaker.expertise as skill}
+                    <span class="bg-orange-100 text-orange-800 text-xs px-2 py-0.5 rounded-full">
+                      {skill}
+                    </span>
+                  {/each}
+                </div>
               </div>
             </div>
           {/each}

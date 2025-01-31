@@ -4,10 +4,9 @@
 
   {
       name: "Feli Michaca",
-      company: "Managed Solution",
       role: "Senior Field Engineer and Brand Ambassador ",
-      image: "assets/feli.png",
-        },
+      company: "Managed Solution",
+      image: "assets/feli.png",    },
     // {
     //   name: "Nicole Traboulsi",
     //   role: "Senior Vulnerability Management Automation Engineer ",

@@ -4,42 +4,44 @@
 
   {
       name: "Feli Michaca",
-      company: "Managed Solution",
       role: "Senior Field Engineer and Brand Ambassador ",
-      image: "assets/feli.png",
-        },
-    // {
-    //   name: "Nicole Traboulsi",
-    //   role: "Senior Vulnerability Management Automation Engineer ",
-    //   company: "Dell Technologies",
-    //   expertise: ["Network Security", "Cryptography", "Threat Analysis"],
-    //   image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    //   panel: "Cybersecurity Challenges in Modern Enterprise"
-    // },
-    // {
-    //   name: "Hilary Arocho",
-    //   role: "Cloud Architect",
-    //   company: "Campos",
-    //   expertise: ["Cloud Computing", "DevOps", "System Architecture"],
-    //   image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    //   panel: "Future of Cloud Infrastructure"
-    // }, 
-    // {
-    //   name: "Zeed Jarrah",
-    //   role: "Cloud Architect",
-    //   company: "Campos",
-    //   expertise: ["Cloud Computing", "DevOps", "System Architecture"],
-    //   image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    //   panel: "Future of Cloud Infrastructure"
-    // }, 
-    // {
-    //   name: "Lauren DuCharme",
-    //   role: "Fault Protection Systems Engineer",
-    //   company: "NASA Jet Propulsion Laboratory",
-    //   expertise: ["Cloud Computing", "DevOps", "System Architecture"],
-    //   image: "assets/lauren.png",
-    //   panel: "Future of Cloud Infrastructure"
-    // }, 
+      company: "Managed Solution",
+      expertise: ["Network Security", "Cryptography", "Threat Analysis"],
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      panel: "Cybersecurity Challenges in Modern Enterprise"
+    },
+    {
+      name: "Nicole Traboulsi",
+      role: "Senior Vulnerability Management Automation Engineer ",
+      company: "Dell Technologies",
+      expertise: ["Network Security", "Cryptography", "Threat Analysis"],
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      panel: "Cybersecurity Challenges in Modern Enterprise"
+    },
+    {
+      name: "Hilary Arocho",
+      role: "Cloud Architect",
+      company: "Campos",
+      expertise: ["Cloud Computing", "DevOps", "System Architecture"],
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      panel: "Future of Cloud Infrastructure"
+    }, 
+    {
+      name: "Zeed Jarrah",
+      role: "Cloud Architect",
+      company: "Campos",
+      expertise: ["Cloud Computing", "DevOps", "System Architecture"],
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      panel: "Future of Cloud Infrastructure"
+    }, 
+    {
+      name: "Lauren DuCharme",
+      role: "Fault Protection Systems Engineer",
+      company: "NASA Jet Propulsion Laboratory",
+      expertise: ["Cloud Computing", "DevOps", "System Architecture"],
+      image: "assets/lauren.png",
+      panel: "Future of Cloud Infrastructure"
+    }, 
 
     // not confirmed yet
     // {
@@ -92,8 +94,14 @@
               <h3 class="text-lg font-bold text-gray-800 mb-1">{speaker.name}</h3>
               <p class="text-orange-600 font-medium text-sm mb-1">{speaker.role}</p>
               <p class="text-gray-600 text-sm mb-2">{speaker.company}</p>
-              
-              
+              <p class="text-gray-800 font-medium text-sm mb-2">Panel: {speaker.panel}</p>
+              <div class="flex flex-wrap gap-1">
+                {#each speaker.expertise as skill}
+                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-0.5 rounded-full">
+                    {skill}
+                  </span>
+                {/each}
+              </div>
             </div>
           </div>
         {/each}

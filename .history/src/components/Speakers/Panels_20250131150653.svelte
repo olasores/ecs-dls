@@ -4,10 +4,12 @@
 
   {
       name: "Feli Michaca",
-      company: "Managed Solution",
       role: "Senior Field Engineer and Brand Ambassador ",
+      company: "Managed Solution",
+      expertise: ["Network Security", "Cryptography", "Threat Analysis"],
       image: "assets/feli.png",
-        },
+      panel: "Cybersecurity Challenges in Modern Enterprise"
+    },
     // {
     //   name: "Nicole Traboulsi",
     //   role: "Senior Vulnerability Management Automation Engineer ",
@@ -92,8 +94,14 @@
               <h3 class="text-lg font-bold text-gray-800 mb-1">{speaker.name}</h3>
               <p class="text-orange-600 font-medium text-sm mb-1">{speaker.role}</p>
               <p class="text-gray-600 text-sm mb-2">{speaker.company}</p>
-              
-              
+              <p class="text-gray-800 font-medium text-sm mb-2">Panel: {speaker.panel}</p>
+              <div class="flex flex-wrap gap-1">
+                {#each speaker.expertise as skill}
+                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-0.5 rounded-full">
+                    {skill}
+                  </span>
+                {/each}
+              </div>
             </div>
           </div>
         {/each}

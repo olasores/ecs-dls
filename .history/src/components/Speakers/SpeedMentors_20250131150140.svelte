@@ -28,8 +28,8 @@
     }, 
     {
       name: "Marco Ramirez",
-      company: "Mercury Systems",
-      role: "Mechanical Engineer II",
+      role: "Mercury Systems",
+      company: "Mechanical Engineer II",
       image: "assets/Marco.png",
     }
   ];

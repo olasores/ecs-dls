@@ -5,7 +5,7 @@
 </svelte:head>
 <script>
   import Keynote from "./Speakers/Keynote.svelte";
-  import Panels from "./Speakers/Panels.svelte";
+  // import Panels from "./Speakers/Panels.svelte";
   // import WorkshopHost from "./Speakers/WorkshopHost.svelte";
   import SpeedMentors from "./Speakers/SpeedMentors.svelte";
 </script>

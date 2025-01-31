@@ -27,10 +27,10 @@
       image: "assets/lauren.png",
     }, 
     {
-      name: "Marco Ramirez",
-      company: "Mercury Systems",
-      role: "Mechanical Engineer II",
-      image: "assets/Marco.png",
+      name: "Marco DuCharme",
+      role: "Fault Protection Systems Engineer",
+      company: "NASA Jet Propulsion Laboratory",
+      image: "assets/lauren.png",
     }
   ];
 
