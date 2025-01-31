@@ -96,12 +96,10 @@
                 key={`buttons-${animationKey}`}
                 class="mt-4 md:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4"
             >
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDnw6jFl7pngQb1J3axQHJ0m3cr2bDUbuq7vLBDrtQnmrdtg/viewform?usp=sf_link" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDnw6jFl7pngQb1J3axQHJ0m3cr2bDUbuq7vLBDrtQnmrdtg/viewform?usp=sf_link"></a>
                 <button class="px-4 md:px-6 py-2 md:py-3 bg-transparent border border-white text-white text-sm md:text-base font-semibold rounded-lg shadow hover:bg-white hover:text-black transition-all">
                     Professional RSVP
                 </button>
-            </a>
-                
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFbj8hFMqYXUwFVdSxzwaee4hSJY6ZEUm8KqyanSdRbm1jzQ/viewform?usp=sf_link" target="_blank">
                     <button class="px-4 md:px-6 py-2 md:py-3 bg-[#FF914C] hover:bg-[#FF7B29] text-white text-sm md:text-base font-semibold rounded-lg transition-all">
                         Student RSVP
