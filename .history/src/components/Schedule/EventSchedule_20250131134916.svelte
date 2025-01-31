@@ -144,7 +144,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Conference Committee",
       description: "Ending the conference with a bang.",
-      image: "assets/close.png" 
+      image: "assets/close.png" // Closing ceremony
     }
   ],
 };

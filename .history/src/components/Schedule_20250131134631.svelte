@@ -32,7 +32,7 @@
         // edit imaages later
         speaker: "Susan Barura",
         category: "Ceremony",
-        image: "assets/spagh.png", 
+        image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&auto=format&fit=crop", // Team building activity
       },
       {
         date: "February 21",
@@ -52,7 +52,7 @@
         // edit name later
         speaker: "N/A",
         category: "Keynote",
-        image: "assets/din.png", 
+        image: "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop", // Dinner setup
       },
       {
         date: "March 16",
@@ -61,7 +61,7 @@
         location: "Main Conference Hall",
         speaker: "Summit Councils",
         category: "Ceremony",
-        image: "assets/close.png", 
+        image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop", // Conference closing
       },
     
       //Day 2 Events 
@@ -72,7 +72,7 @@
         location: "TSU",
         speaker: "Summit Councils",
         category: "Ceremony",
-        image: "assets/check-in.png", 
+        image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&auto=format&fit=crop", // Registration desk
       },
 
       {
@@ -82,7 +82,7 @@
         location: "TSU",
         speaker: "Summit Councils",
         category: "Ceremony",
-        image: "assets/welcomimg.png", 
+        image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop", // Conference welcome
       },
       {
         date: "February 22",
@@ -91,7 +91,7 @@
         location: "Main Conference Hall",
         speaker: "Dr. Sarah Johnson",
         category: "Keynote",
-        image: "assets/knote.png" 
+        image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&auto=format&fit=crop" // Keynote speaker
       },
       {
         date: "February 22",
@@ -100,7 +100,7 @@
         location: "Main Conference Hall",
         speaker: "Tech Industry Leaders",
         category: "Panel",
-        image: "assets/p-2.png" 
+        image: "assets/p-2.png" // Panel discussion
       },
 
       {
@@ -108,29 +108,21 @@
         time: "12:00PM - 01:30PM",
         title: "Lunch",
         location: "Main Conference Hall",
+        // edit name later
         speaker: "N/A",
         category: "Ceremony",
-        image: "assets/lun.png"
+        image: "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop" // Lunch setup
       },
 
 
       {
         date: "February 22",
-        time: "02:15PM - 02:55PM",
+        time: "01:30PM - 02:10PM",
         title: "Workshop 1",
         location: "Workshop Room 1",
         speaker: "Prof. Michael Chen",
         category: "Workshop",
-        image: "assets/gallery/w-1.png" 
-      },
-      {
-        date: "February 22",
-        time: "01:30PM - 02:10PM",
-        title: "Workshop 2",
-        location: "Workshop Room 1",
-        speaker: "Prof. Michael Chen",
-        category: "Workshop",
-        image: "assets/w1.png"
+        image: "assets/gallery/w-1.png" // Workshop
       },
       {
         date: "February 22",
@@ -140,7 +132,7 @@
         location: "Grand Hall",
         speaker: "All Attendees",
         category: "Networking",
-        image: "assets/speed.png"
+        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&auto=format&fit=crop" // Mentoring
       },
       {
         date: "February 22",
@@ -149,7 +141,7 @@
         location: "Main Conference Hall",
         speaker: "Conference Committee",
         category: "Ceremony",
-        image: "assets/close.png" 
+        image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop" // Closing ceremony
       }
     ];
   

@@ -134,7 +134,7 @@ let events = {
       location: "Grand Hall",
       description: "Ask our professionals questions one on one.",
       speaker: "All Attendees",
-      image: "assets/speed.png"
+      image: "assets/speed.png" // Mentoring
     },
     {
       id: 15,
@@ -144,7 +144,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Conference Committee",
       description: "Ending the conference with a bang.",
-      image: "assets/close.png" 
+      image: "assets/close.png" // Closing ceremony
     }
   ],
 };

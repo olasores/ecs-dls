@@ -1,0 +1,3 @@
+<script>
+    const panels
+</script>

@@ -104,7 +104,7 @@ let events = {
       location: "Main Conference Hall",
       description: "Enjoy Our Lunch Menu.",
       speaker: "N/A",
-      image: "assets/lun.png"
+      image: "assets/lun.png" // Lunch setup
     },
     {
       id: 13,
@@ -114,7 +114,7 @@ let events = {
       location: "Workshop Room 1",
       description: "Our first engaging workshop.",
       speaker: "Prof. Michael Chen",
-      image: "assets/gallery/w-1.png"
+      image: "assets/gallery/w-1.png" // Workshop
     },
     {
       id: 13,
@@ -124,7 +124,7 @@ let events = {
       location: "Workshop Room 1",
       description: "Our first engaging workshop.",
       speaker: "Prof. Michael Chen",
-      image: "assets/w1.png"
+      image: "assets/w1.png" // Workshop
     },
     {
       id: 14,
@@ -134,7 +134,7 @@ let events = {
       location: "Grand Hall",
       description: "Ask our professionals questions one on one.",
       speaker: "All Attendees",
-      image: "assets/speed.png"
+      image: "assets/speed.png" // Mentoring
     },
     {
       id: 15,
@@ -144,7 +144,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Conference Committee",
       description: "Ending the conference with a bang.",
-      image: "assets/close.png" 
+      image: "assets/close.png" // Closing ceremony
     }
   ],
 };

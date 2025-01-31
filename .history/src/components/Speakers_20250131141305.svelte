@@ -8,6 +8,12 @@
   import Panels from "./Speakers/Panels.svelte";
   import WorkshopHost from "./Speakers/WorkshopHost.svelte";
   import SpeedMentors from "./Speakers/SpeedMentors.svelte";
+  
+
+
+  
+
+
 </script>
 
 <main class="min-h-screen bg-gray-50">
@@ -24,6 +30,7 @@
     </div>
   </section>
 
+  <!-- Keynote Speakers Section -->
   <!-- <section class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-2">
@@ -59,17 +66,32 @@
       {/each}
     </div>
   </section> -->
-  <!-- Keynote Speakers Section -->
+
   <Keynote />
+
+
+
   <!-- Panelists Section -->
    <Panels />
+ 
 
   <!-- Speed Mentors Section -->
-  <SpeedMentors />
+
 
   <!-- Workshop Hosts Section -->
   <WorkshopHost />
  
+
+  <!-- Call to Action -->
+  <section class="bg-orange-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Want to Share Your Expertise?</h2>
+      <p class="text-orange-100 mb-8 max-w-2xl mx-auto">Join our distinguished lineup of speakers, mentors, and workshop hosts.</p>
+      <button class="bg-white text-orange-600 font-medium px-8 py-3 rounded-lg hover:bg-orange-50 transition-colors duration-300">
+        Submit Your Proposal
+      </button>
+    </div>
+  </section>
 </main>
 
 <style>

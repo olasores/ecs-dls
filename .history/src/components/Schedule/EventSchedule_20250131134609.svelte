@@ -4,7 +4,7 @@ let events = {
   "Day 1": [
     {
       id: 1,
-      image: "assets/check-in.png", 
+      image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&auto=format&fit=crop", // Registration desk
       title: "Check In",
       description: "A personal portfolio is a curated collection of an individual's professional work.",
       location: "TSU",
@@ -13,7 +13,7 @@ let events = {
     },
     {
       id: 2,
-      image: "assets/panel-h.png", 
+      image: "assets/panel-h.png", // Keeping dean's image as requested
       title: "Dean's Welcome",
       description: "Welcome the College of Computer Science and Engineering Dean, Susan Barura.",
       location: "Mirpur 01 Road N 12 Dhaka, Bangladesh",
@@ -22,7 +22,7 @@ let events = {
     },
     {
       id: 3,
-      image: "assets/spagh.png", 
+      image: "assets/spagh.png", // Team building activity
       title: "Sphagetti + Marshmallow activity",
       description: "Ice breaker activity to get to know your fellow participants.",
       location: "Main Conference Hall",
@@ -31,7 +31,7 @@ let events = {
     },
     {
       id: 5,
-      image: "assets/k-note.png", 
+      image: "assets/k-note.png", // Keynote speaker
       title: "Keynote Speaker 1",
       description: "Our keynote speaker will share insights on the future of technology.",
       location: "Main Conference Hall",
@@ -40,7 +40,7 @@ let events = {
     },
     {
       id: 6,
-      image: "assets/din.png", 
+      image: "assets/din.png", // Dinner setup
       title: "Dinner",
       description: "Time to feast .",
       location: "Main Conference Hall",
@@ -49,7 +49,7 @@ let events = {
     },
     {
       id: 7,
-      image: "assets/close.png", 
+      image: "assets/close.png", // Conference closing
       title: "Closing Statement",
       description: "End of Day 1 activities.",
       location: "Main Conference Hall",
@@ -60,7 +60,7 @@ let events = {
   "Day 2": [
     {
       id: 8,
-      image: "assets/check-in.png",
+      image: "assets/check-in.png", // Registration desk
       title: "Check In",
       description: "A personal portfolio is a curated collection of an individual's professional work.",
       location: "TSU",
@@ -69,7 +69,7 @@ let events = {
     },
     {
       id: 9,
-      image: "assets/welcomimg.png", 
+      image: "assets/welcomimg.png", // Conference welcome
       title: "Welcome Back",
       description: "A celebration of achievements and leadership in various sectors.",
       location: "Main Conference Hall",
@@ -84,7 +84,7 @@ let events = {
       title: "Keynote Speaker 2",
       location: "Main Conference Hall",
       speaker: "Dr. Sarah Johnson",
-      image: "assets/knote.png" 
+      image: "assets/knote.png" // Keynote speaker
     },
     {
       id: 11,
@@ -94,7 +94,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Tech Industry Leaders",
       description: "Our Pannelist will go ahead and answer some questions.",
-      image: "assets/p-2.png" 
+      image: "assets/p-2.png" // Panel discussion
     },
     {
       id: 12,
@@ -104,7 +104,7 @@ let events = {
       location: "Main Conference Hall",
       description: "Enjoy Our Lunch Menu.",
       speaker: "N/A",
-      image: "assets/lun.png"
+      image: "assets/lun.png" // Lunch setup
     },
     {
       id: 13,
@@ -114,7 +114,7 @@ let events = {
       location: "Workshop Room 1",
       description: "Our first engaging workshop.",
       speaker: "Prof. Michael Chen",
-      image: "assets/gallery/w-1.png"
+      image: "assets/gallery/w-1.png" // Workshop
     },
     {
       id: 13,
@@ -124,7 +124,7 @@ let events = {
       location: "Workshop Room 1",
       description: "Our first engaging workshop.",
       speaker: "Prof. Michael Chen",
-      image: "assets/w1.png"
+      image: "assets/w1.png" // Workshop
     },
     {
       id: 14,
@@ -134,7 +134,7 @@ let events = {
       location: "Grand Hall",
       description: "Ask our professionals questions one on one.",
       speaker: "All Attendees",
-      image: "assets/speed.png"
+      image: "assets/speed.png" // Mentoring
     },
     {
       id: 15,
@@ -144,7 +144,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Conference Committee",
       description: "Ending the conference with a bang.",
-      image: "assets/close.png" 
+      image: "assets/close.png" // Closing ceremony
     }
   ],
 };

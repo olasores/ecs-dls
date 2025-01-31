@@ -116,7 +116,7 @@
 
       {
         date: "February 22",
-        time: "02:15PM - 02:55PM",
+        time: "01:30PM - 02:10PM",
         title: "Workshop 1",
         location: "Workshop Room 1",
         speaker: "Prof. Michael Chen",
@@ -130,7 +130,7 @@
         location: "Workshop Room 1",
         speaker: "Prof. Michael Chen",
         category: "Workshop",
-        image: "assets/w1.png"
+        image: "assets/gallery/w-1.png" 
       },
       {
         date: "February 22",
@@ -140,7 +140,7 @@
         location: "Grand Hall",
         speaker: "All Attendees",
         category: "Networking",
-        image: "assets/speed.png"
+        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&auto=format&fit=crop" // Mentoring
       },
       {
         date: "February 22",
@@ -149,7 +149,7 @@
         location: "Main Conference Hall",
         speaker: "Conference Committee",
         category: "Ceremony",
-        image: "assets/close.png" 
+        image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop" // Closing ceremony
       }
     ];
   
