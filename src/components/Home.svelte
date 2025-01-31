@@ -41,9 +41,9 @@
 
 
     
-<!-- 
 
-    <section class="w-full pr-5 md:flex flex-col md:flex-row pb-5 items-center bg-gray-50 px-4 md:px-5">
+    <!-- old design -->
+    <!-- <section class="w-full pr-5 md:flex flex-col md:flex-row pb-5 items-center bg-gray-50 px-4 md:px-5">
       <div class="w-full md:w-1/2 flex justify-center py-6 md:py-0">
         <img
           src="/assets/about.png"
@@ -67,7 +67,6 @@
       </div>
     </section> -->
 
-    <!-- bottom design -->
 
     <section class="w-full px-5 py-10 flex flex-col md:flex-row items-center bg-gray-50 gap-6">
       <div class="w-full md:w-1/2 flex justify-center">
@@ -104,10 +103,14 @@ style="background-image: url('/assets/background.png');">
 <!-- Content Wrapper -->
 <div class="relative w-full max-w-6xl">
   <!-- Event Theme Title -->
-  <div class="mb-12">
+  <div class="mb-12 flex flex-col items-center justify-center ">
     
-    <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-2">
+    <p class="text-sm font-semibold text-[#FF914C] flex justify-center md:justify-start items-center gap-2 uppercase tracking-wider">
+      <span class="w-8 h-[1px] bg-[#FF914C]"></span>
       Event Theme
+    <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+     
+
     </p>
     <h1 class="text-4xl font-bold leading-tight text-white">
       <span class="block">Building Bridges:</span>

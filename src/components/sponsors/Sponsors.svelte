@@ -8,10 +8,16 @@
       { id: 5, src: "/assets/ibm.png", alt: "Sponsor 5" },
     ];
   </script>
-  <main class="px-6 sm:px-12 lg:px-24 py-10">
+  <main class="px-6 text-center sm:px-12 lg:px-24 py-10">
     <!-- Centered Sponsors Text -->
-    <div class="text-center mb-8">
-      <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider">// Our Sponsors</p>
+    <div class=" flex flex-col items-center justify-center text-center mb-8">
+      <p class="text-sm font-semibold text-[#FF914C] flex justify-center md:justify-start items-center gap-2 uppercase tracking-wider">
+        <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+        Our Platinum Sponsors
+      <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+       
+
+      </p>
       <h1 class="text-4xl font-bold text-black">Our Platinum Sponsors</h1>
     </div>
   

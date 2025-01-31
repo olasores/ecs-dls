@@ -4,7 +4,7 @@ let events = {
   "Day 1": [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&auto=format&fit=crop", // Registration desk
+      image: "assets/check-in.png", // Registration desk
       title: "Check In",
       description: "A personal portfolio is a curated collection of an individual's professional work.",
       location: "TSU",
@@ -22,7 +22,7 @@ let events = {
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&auto=format&fit=crop", // Team building activity
+      image: "assets/spagh.png", // Team building activity
       title: "Sphagetti + Marshmallow activity",
       description: "Ice breaker activity to get to know your fellow participants.",
       location: "Main Conference Hall",
@@ -40,7 +40,7 @@ let events = {
     },
     {
       id: 6,
-      image: "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop", // Dinner setup
+      image: "assets/din.png", // Dinner setup
       title: "Dinner",
       description: "Time to feast .",
       location: "Main Conference Hall",
@@ -49,7 +49,7 @@ let events = {
     },
     {
       id: 7,
-      image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop", // Conference closing
+      image: "assets/close.png", // Conference closing
       title: "Closing Statement",
       description: "End of Day 1 activities.",
       location: "Main Conference Hall",
@@ -60,7 +60,7 @@ let events = {
   "Day 2": [
     {
       id: 8,
-      image: "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&auto=format&fit=crop", // Registration desk
+      image: "assets/check-in.png", // Registration desk
       title: "Check In",
       description: "A personal portfolio is a curated collection of an individual's professional work.",
       location: "TSU",
@@ -69,7 +69,7 @@ let events = {
     },
     {
       id: 9,
-      image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&auto=format&fit=crop", // Conference welcome
+      image: "assets/welcomimg.png", // Conference welcome
       title: "Welcome Back",
       description: "A celebration of achievements and leadership in various sectors.",
       location: "Main Conference Hall",
@@ -84,7 +84,7 @@ let events = {
       title: "Keynote Speaker 2",
       location: "Main Conference Hall",
       speaker: "Dr. Sarah Johnson",
-      image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&auto=format&fit=crop" // Keynote speaker
+      image: "assets/knote.png" // Keynote speaker
     },
     {
       id: 11,
@@ -104,7 +104,7 @@ let events = {
       location: "Main Conference Hall",
       description: "Enjoy Our Lunch Menu.",
       speaker: "N/A",
-      image: "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop" // Lunch setup
+      image: "assets/lun.png" // Lunch setup
     },
     {
       id: 13,
@@ -117,6 +117,16 @@ let events = {
       image: "assets/gallery/w-1.png" // Workshop
     },
     {
+      id: 13,
+      date: "February 22",
+      time: "02:15PM - 02:55PM",
+      title: "Workshop 2",
+      location: "Workshop Room 1",
+      description: "Our first engaging workshop.",
+      speaker: "Prof. Michael Chen",
+      image: "assets/w1.png" // Workshop
+    },
+    {
       id: 14,
       date: "February 22",
       time: "03:00PM - 04:30PM",
@@ -124,7 +134,7 @@ let events = {
       location: "Grand Hall",
       description: "Ask our professionals questions one on one.",
       speaker: "All Attendees",
-      image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&auto=format&fit=crop" // Mentoring
+      image: "assets/speed.png" // Mentoring
     },
     {
       id: 15,
@@ -134,7 +144,7 @@ let events = {
       location: "Main Conference Hall",
       speaker: "Conference Committee",
       description: "Ending the conference with a bang.",
-      image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop" // Closing ceremony
+      image: "assets/close.png" // Closing ceremony
     }
   ],
 };
@@ -147,7 +157,12 @@ let events = {
     <div class="flex items-center justify-between mb-4">
       <!-- Heading -->
       <div>
-        <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider">// Event Schedule</p>
+        <p class="text-sm font-semibold text-[#FF914C] flex justify-center md:justify-start items-center gap-2 uppercase tracking-wider">
+          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+          Event Schedule
+          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+
+        </p>
         <h1 class="text-4xl font-bold text-black">Information On The Event Schedule</h1>
       </div>
       <!-- Tabs -->
