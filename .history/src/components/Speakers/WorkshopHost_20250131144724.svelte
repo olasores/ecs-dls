@@ -36,7 +36,7 @@
           Learn practical skills from experienced practitioners
 
         </div>
-        <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-7xl mx-auto px-6"
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {#each workshopHosts as speaker}
               <div class="group relative overflow-hidden rounded-lg bg-white shadow-lg hover:shadow-xl transition-all duration-300">

@@ -37,6 +37,11 @@
         </h1>
         <p class="text-gray-600 max-w-2xl mx-auto text-lg">
           Get personalized career advice from industry Professionals
+      </div>
+        <div class="text-center mb-12">
+          <span class="text-orange-600 font-medium mb-2">One-on-One Guidance</span>
+          <h2 class="text-3xl md:text-4xl font-bold font-judson text-gray-800 mb-4">Speed Mentors</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Get personalized career advice from industry veterans</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

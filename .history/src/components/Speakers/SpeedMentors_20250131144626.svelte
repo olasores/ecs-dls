@@ -37,7 +37,8 @@
         </h1>
         <p class="text-gray-600 max-w-2xl mx-auto text-lg">
           Get personalized career advice from industry Professionals
-        </div>
+      </div>
+    
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {#each speedMentors as speaker}

@@ -57,14 +57,20 @@
         <span class="w-8 h-[1px] bg-[#FF914C]"></span>
       </p>
       <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
-        Panelist
+        Keynote Speakers
       </h1>
       <p class="text-gray-600 max-w-2xl mx-auto text-lg">
-        Join engaging discussions with industry experts
+        Join us for inspiring talks from industry leaders who are shaping the future of technology
       </p>
     </div>
   
     <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <span class="text-orange-600 font-medium mb-2">Expert Discussions</span>
+        <h2 class="text-3xl md:text-4xl font-bold font-judson text-gray-800 mb-4">Panel Speakers</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Join engaging discussions with industry experts</p>
+      </div>
+      
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {#each panelists as speaker}
           <div class="group relative overflow-hidden rounded-lg bg-white shadow-lg hover:shadow-xl transition-all duration-300">

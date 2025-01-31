@@ -27,22 +27,20 @@
     }, 
     {
       name: "Lauren DuCharme",
-      role: "Fault Protection Systems Engineer",
-      company: "NASA Jet Propulsion Laboratory",
+      role: "Cloud Architect",
+      company: "Managed Solution",
       expertise: ["Cloud Computing", "DevOps", "System Architecture"],
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
       panel: "Future of Cloud Infrastructure"
     }, 
-
-    // not confirmed yet
-    // {
-    //   name: "Feli Michaca",
-    //   role: "Cloud Architect",
-    //   company: "Campos",
-    //   expertise: ["Cloud Computing", "DevOps", "System Architecture"],
-    //   image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    //   panel: "Future of Cloud Infrastructure"
-    // }
+    {
+      name: "Feli Michaca",
+      role: "Cloud Architect",
+      company: "Campos",
+      expertise: ["Cloud Computing", "DevOps", "System Architecture"],
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      panel: "Future of Cloud Infrastructure"
+    }
 ]
 </script>
 
@@ -50,21 +48,13 @@
 <main> 
       <!-- Panelists Section -->
   <section class="bg-gray-100 py-16">
-    <div class="text-center mb-20">
-      <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-3 flex items-center justify-center gap-2">
-        <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-       Expert Discussions
-        <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-      </p>
-      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
-        Panelist
-      </h1>
-      <p class="text-gray-600 max-w-2xl mx-auto text-lg">
-        Join engaging discussions with industry experts
-      </p>
-    </div>
-  
     <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <span class="text-orange-600 font-medium mb-2">Expert Discussions</span>
+        <h2 class="text-3xl md:text-4xl font-bold font-judson text-gray-800 mb-4">Panel Speakers</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Join engaging discussions with industry experts</p>
+      </div>
+      
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {#each panelists as speaker}
           <div class="group relative overflow-hidden rounded-lg bg-white shadow-lg hover:shadow-xl transition-all duration-300">

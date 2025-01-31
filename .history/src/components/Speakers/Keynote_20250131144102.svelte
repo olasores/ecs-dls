@@ -22,7 +22,7 @@
     <div class="text-center mb-20">
       <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-3 flex items-center justify-center gap-2">
         <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        Our professionals 
+         Presentation
         <span class="w-8 h-[1px] bg-[#FF914C]"></span>
       </p>
       <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">

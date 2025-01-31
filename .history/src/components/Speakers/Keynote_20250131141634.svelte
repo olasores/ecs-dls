@@ -6,7 +6,7 @@
       bio: "Olivia Stella is a Tech Lead, Cybersecurity at Southwest Airlines",
     },
 
-    // add information later when confirmed
+    
     // {
     //   name: "Yasmeen Ismail",
     //   image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
@@ -22,7 +22,7 @@
     <div class="text-center mb-20">
       <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-3 flex items-center justify-center gap-2">
         <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        Our professionals 
+        Featured Presentation
         <span class="w-8 h-[1px] bg-[#FF914C]"></span>
       </p>
       <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">

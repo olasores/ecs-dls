@@ -1,21 +1,17 @@
 <script> 
     const speedMentors = [
-
-    // not filled out google form yet
-    // {
-    //   name: "Patrick  Babb",
-    //   role: "Blockchain Researcher",
-    //   company: "ABS Consulting",
-    //   expertise: ["Blockchain", "Smart Contracts", "DeFi"],
-    //   image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    //   mentorshipAreas: ["Career Guidance", "Research Direction", "Technology Selection"]
-    // },
-
-    
     {
-      name: "Arthur Guzman",
-      role: "Pathway Project Coordinator",
-      company: "California State University Fullerton ",
+      name: "Patrick  Babb",
+      role: "Blockchain Researcher",
+      company: "ABS Consulting",
+      expertise: ["Blockchain", "Smart Contracts", "DeFi"],
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      mentorshipAreas: ["Career Guidance", "Research Direction", "Technology Selection"]
+    },
+    {
+      name: "Alex Martinez",
+      role: "Tech Lead",
+      company: "Innovation Labs",
       expertise: ["Leadership", "Team Building", "Tech Strategy"],
       image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
       mentorshipAreas: ["Career Development", "Technical Leadership", "Project Management"]
@@ -26,17 +22,10 @@
 
 <main>
     <section class="max-w-7xl mx-auto px-6 py-16">
-      <div class="text-center mb-20">
-        <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-3 flex items-center justify-center gap-2">
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        Our Mentors
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        </p>
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
-         Speed Mentors
-        </h1>
-        <p class="text-gray-600 max-w-2xl mx-auto text-lg">
-          Get personalized career advice from industry Professionals
+        <div class="text-center mb-12">
+          <span class="text-orange-600 font-medium mb-2">One-on-One Guidance</span>
+          <h2 class="text-3xl md:text-4xl font-bold font-judson text-gray-800 mb-4">Speed Mentors</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Get personalized career advice from industry veterans</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
