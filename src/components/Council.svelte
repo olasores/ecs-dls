@@ -24,11 +24,12 @@
     import celine from "../teamPhotos/Celine.jpg";
     import fiona from "../teamPhotos/fiona.jpg";
     import joann from "../teamPhotos/Joann.jpg";
-    import karina from "../teamPhotos/Karina.jpg";
+    import karina from "../teamPhotos/karina.jpg";
     import keang from "../teamPhotos/Keang.jpg";
     import kristine from "../teamPhotos/Kristine.jpg";
     import kelsey from "../teamPhotos/Kelsey.jpg";
     import khushi from "../teamPhotos/Khushi.jpg";
+    import lori from "../teamPhotos/lori.jpg";
     import lupita from "../teamPhotos/Lupita.jpg";
     import manasi from "../teamPhotos/Manasi.jpg";
     import ola from "../teamPhotos/Ola.jpg";
@@ -61,7 +62,7 @@
         { name: 'Kristine Vergara', role: 'Counsel Member', pronouns: '(She/Her)', image: kristine }, 
         { name: 'Alexia Riley', role: 'Social Media & Outreach Team Member', pronouns: '(They/Them)', image: alexia },
         { name: 'Celine Troung', role: 'Operations Team Member', pronouns: '(She/Her)', image: celine }, 
-        { name: 'Lori Cha', role: 'Web Development Team Member', pronouns: '(She/Her)', image: blankpfp },
+        { name: 'Lori Cha', role: 'Web Development Team Member', pronouns: '(She/Her)', image: lori },
         { name: 'Suhana Natalia', role: 'Operations Team Member', pronouns: '(She/Her)', image: suhana },
         { name: 'Carrie Appelt', role: 'Outreach Team Member', pronouns: '(She/Her)', image: carrie },
         { name: 'Joann Sum', role: 'Operations Team Member', pronouns: '(She/Her)', image: joann },
@@ -76,22 +77,22 @@
 </section>   
 
 <!-- COORDINATORS -->
-<section class="p-12 px-56">
+<section class="justify-center p-8 px-24 md:px-32 lg:px-48">
     <Grid teamTitle="Coordinators" team={coCoordinators} />
 </section>
 
 <!-- Team Leads -->
-<section class="p-12 px-56">
+<section class="p-8 px-24 md:px-32 lg:px-48">
     <Grid teamTitle="" team={coordinators} />
 </section>
 
 <!-- Faculty Advisors -->
-<section class="p-12 px-56">
+<section class="p-8 px-24 md:px-32 lg:px-48">
     <Grid teamTitle="Faculty Advisors" team={advisors} />
 </section>
 
 <!-- Council Members -->
-<section class="p-12 px-56">
+<section class="p-8 px-24 md:px-32 lg:px-48">
     <Grid teamTitle="Council Members" team={councilMembers} />
 </section>
 

@@ -7,7 +7,7 @@
 
 <div class="flex flex-col items-center space-y-1">
   <img
-      class="profile_image rounded-md outline-none max-w-full w-32 h-32 md:w-40 h-40 lg:w-48 h-48 object-cover mb-2" 
+      class="profile_image rounded-md outline-none aspect-square w-56 md:w-64 lg:w-80 object-cover object-center mb-2" 
       src={image}
       alt={name}
   />
@@ -21,5 +21,6 @@
 <style>
   .profile_image {
       border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 </style>
