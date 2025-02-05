@@ -40,7 +40,7 @@
         title: "Keynote Speaker 1",
         location: "Main Conference Hall",
         // edit name later
-        speaker: "Olivia Stella",
+        speaker: "N/A",
         category: "Keynote",
         image: "assets/k-note.png", // Keynote speaker
       },
@@ -50,7 +50,7 @@
         title: "Dinner",
         location: "Main Conference Hall",
         // edit name later
-        speaker: "N/A",
+        speaker: "Olivia Stella",
         category: "Keynote",
         image: "assets/din.png", 
       },
@@ -98,7 +98,7 @@
         time: "10:35AM - 12:00PM",
         title: "Panel Discussion",
         location: "Main Conference Hall",
-        speaker: "Panelist",
+        speaker: "Tech Industry Leaders",
         category: "Panel",
         image: "assets/p-2.png" 
       },
@@ -119,8 +119,7 @@
         time: "02:15PM - 02:55PM",
         title: "Workshop 1",
         location: "Workshop Room 1",
-        // edit name
-        speaker: "N/A",
+        speaker: "Prof. Michael Chen",
         category: "Workshop",
         image: "assets/gallery/w-1.png" 
       },
@@ -128,9 +127,8 @@
         date: "February 22",
         time: "01:30PM - 02:10PM",
         title: "Workshop 2",
-        // edit room and name
-        location: "Workshop Room 2",
-        speaker: "N/A",
+        location: "Workshop Room 1",
+        speaker: "Prof. Michael Chen",
         category: "Workshop",
         image: "assets/w1.png"
       },
@@ -140,7 +138,7 @@
         title: "Speed Mentoring",
         // edit location for this
         location: "Grand Hall",
-        speaker: "Summit Councils",
+        speaker: "All Attendees",
         category: "Networking",
         image: "assets/speed.png"
       },
@@ -148,9 +146,8 @@
         date: "February 22",
         time: "04:30PM - 05:00PM",
         title: "Closing Ceremony & Pictures",
-        // edit location later
         location: "Main Conference Hall",
-        speaker: "Summit Councils",
+        speaker: "Conference Committee",
         category: "Ceremony",
         image: "assets/close.png" 
       }

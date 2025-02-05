@@ -128,9 +128,8 @@
         date: "February 22",
         time: "01:30PM - 02:10PM",
         title: "Workshop 2",
-        // edit room and name
-        location: "Workshop Room 2",
-        speaker: "N/A",
+        location: "Workshop Room 3",
+        speaker: "Prof. Michael Chen",
         category: "Workshop",
         image: "assets/w1.png"
       },
@@ -140,7 +139,7 @@
         title: "Speed Mentoring",
         // edit location for this
         location: "Grand Hall",
-        speaker: "Summit Councils",
+        speaker: "All Attendees",
         category: "Networking",
         image: "assets/speed.png"
       },
@@ -148,9 +147,8 @@
         date: "February 22",
         time: "04:30PM - 05:00PM",
         title: "Closing Ceremony & Pictures",
-        // edit location later
         location: "Main Conference Hall",
-        speaker: "Summit Councils",
+        speaker: "Conference Committee",
         category: "Ceremony",
         image: "assets/close.png" 
       }

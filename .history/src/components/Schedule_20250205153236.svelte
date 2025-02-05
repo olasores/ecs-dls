@@ -140,7 +140,7 @@
         title: "Speed Mentoring",
         // edit location for this
         location: "Grand Hall",
-        speaker: "Summit Councils",
+        speaker: "",
         category: "Networking",
         image: "assets/speed.png"
       },

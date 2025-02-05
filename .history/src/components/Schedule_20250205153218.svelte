@@ -140,7 +140,7 @@
         title: "Speed Mentoring",
         // edit location for this
         location: "Grand Hall",
-        speaker: "Summit Councils",
+        speaker: "All Attendees",
         category: "Networking",
         image: "assets/speed.png"
       },
@@ -150,7 +150,7 @@
         title: "Closing Ceremony & Pictures",
         // edit location later
         location: "Main Conference Hall",
-        speaker: "Summit Councils",
+        speaker: "Summit Committee",
         category: "Ceremony",
         image: "assets/close.png" 
       }
