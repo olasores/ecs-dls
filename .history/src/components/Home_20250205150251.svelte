@@ -178,19 +178,23 @@ style="background-image: url('/assets/background.png');">
     </section>
 
     <!-- gallery  -->
-  
+     
+
+    <div class="text-center mb-20">
+      <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-3 flex items-center justify-center gap-2">
+        <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+          Detailed Schedule
+        <span class="w-8 h-[1px] bg-[#FF914C]"></span>
+      </p>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
+        Our Event Schedule
+      </h1>
+      <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+        Learn about the various sessions, workshops, and networking events happening during the conference.
+      </p>
+    </div>
 
     <section class="mt-5">
-      <div class="mb-0 px-10">
-        <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-2 flex items-center gap-2">
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-            Gallery
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        </p>
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
-          Previous Gallery
-        </h1>
-      </div>
         <!-- <HGallery /> -->
         <NewGal />
     </section>

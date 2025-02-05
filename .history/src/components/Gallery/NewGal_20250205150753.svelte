@@ -44,9 +44,17 @@
         </div>
       {/each}
 
-      
+      {#each images.slice(5, 7) as image}
+      <div class="aspect-square overflow-hidden">
+        <img 
+          src={image} 
+          alt="Gallery Image" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+    {/each}
   
-      <!-- 2023 Events Gallery Box -->
+      2023 Events Gallery Box
       <div class="bg-[#FF914C] hidden lg:flex text-white p-6  flex-col justify-center items-center">
         <p class="text-sm uppercase tracking-wide mb-2">— Gallery</p>
         <!-- <h3 class="text-3xl font-bold mb-2">2023</h3> -->

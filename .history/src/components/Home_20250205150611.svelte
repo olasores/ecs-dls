@@ -181,7 +181,7 @@ style="background-image: url('/assets/background.png');">
   
 
     <section class="mt-5">
-      <div class="mb-0 px-10">
+      <div class="mb-0 px-5">
         <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-2 flex items-center gap-2">
           <span class="w-8 h-[1px] bg-[#FF914C]"></span>
             Gallery

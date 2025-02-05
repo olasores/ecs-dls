@@ -178,19 +178,9 @@ style="background-image: url('/assets/background.png');">
     </section>
 
     <!-- gallery  -->
-  
+     
 
     <section class="mt-5">
-      <div class="mb-0 px-10">
-        <p class="text-sm font-semibold text-[#FF914C] uppercase tracking-wider mb-2 flex items-center gap-2">
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-            Gallery
-          <span class="w-8 h-[1px] bg-[#FF914C]"></span>
-        </p>
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
-          Previous Gallery
-        </h1>
-      </div>
         <!-- <HGallery /> -->
         <NewGal />
     </section>

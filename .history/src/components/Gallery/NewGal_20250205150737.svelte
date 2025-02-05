@@ -44,7 +44,15 @@
         </div>
       {/each}
 
-      
+      {#each images.slice(5, 6) as image}
+      <div class="aspect-square overflow-hidden">
+        <img 
+          src={image} 
+          alt="Gallery Image" 
+          class="w-full h-full object-cover"
+        />
+      </div>
+    {/each}
   
       <!-- 2023 Events Gallery Box -->
       <div class="bg-[#FF914C] hidden lg:flex text-white p-6  flex-col justify-center items-center">
