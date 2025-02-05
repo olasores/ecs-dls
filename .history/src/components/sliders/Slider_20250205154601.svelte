@@ -1,6 +1,4 @@
 <script>
-    import { onMount } from 'svelte';
-
     let slides = [
         {
             id: 1,
@@ -26,29 +24,6 @@
     let slideDirection = 'right';
     let isAnimating = false;
     let animationKey = 0;
-    let autoplayInterval;
-
-    // Function to start autoplay
-    const startAutoplay = () => {
-        autoplayInterval = setInterval(() => {
-            nextSlide();
-        }, 3000);
-    };
-
-    // Function to stop autoplay
-    const stopAutoplay = () => {
-        if (autoplayInterval) {
-            clearInterval(autoplayInterval);
-        }
-    };
-
-    // Initialize autoplay when component mounts
-    onMount(() => {
-        startAutoplay();
-        
-        // Cleanup interval when component unmounts
-        return () => stopAutoplay();
-    });
 
     const prevSlide = () => {
         if (isAnimating) return;
@@ -56,10 +31,6 @@
         slideDirection = 'left';
         currentSlide = (currentSlide - 1 + slides.length) % slides.length;
         animationKey++;
-        
-        // Reset autoplay timer when manually changing slides
-        stopAutoplay();
-        startAutoplay();
         
         setTimeout(() => {
             isAnimating = false;
@@ -73,30 +44,12 @@
         currentSlide = (currentSlide + 1) % slides.length;
         animationKey++;
         
-        // Reset autoplay timer when manually changing slides
-        stopAutoplay();
-        startAutoplay();
-        
         setTimeout(() => {
             isAnimating = false;
         }, 1000);
     };
-
-    // Add event listeners to pause autoplay when user interacts with slider
-    const handleMouseEnter = () => {
-        stopAutoplay();
-    };
-
-    const handleMouseLeave = () => {
-        startAutoplay();
-    };
 </script>
-
-<div 
-    class="relative w-full h-screen md:min-h-[500px] overflow-hidden"
-    on:mouseenter={handleMouseEnter}
-    on:mouseleave={handleMouseLeave}
->
+<div class="relative w-full h-screen md:min-h-[500px] overflow-hidden">
     <!-- Desktop Slider -->
     <div class="hidden md:block absolute inset-0">
         {#each slides as { id, src, title, description }, index}
@@ -143,17 +96,18 @@
                 key={`buttons-${animationKey}`}
                 class="mt-4 md:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4"
             >
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDnw6jFl7pngQb1J3axQHJ0m3cr2bDUbuq7vLBDrtQnmrdtg/viewform?usp=sf_link" target="_blank">
-                    <button class="px-4 md:px-6 py-2 md:py-3 bg-transparent border border-white text-white text-sm md:text-base font-semibold rounded-lg shadow hover:bg-white hover:text-black transition-all">
-                        Professional RSVP
-                    </button>
-                </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDnw6jFl7pngQb1J3axQHJ0m3cr2bDUbuq7vLBDrtQnmrdtg/viewform?usp=sf_link" target="_blank">
+                <button class="px-4 md:px-6 py-2 md:py-3 bg-transparent border border-white text-white text-sm md:text-base font-semibold rounded-lg shadow hover:bg-white hover:text-black transition-all">
+                    Professional RSVP
+                </button>
+            </a>
                 
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFbj8hFMqYXUwFVdSxzwaee4hSJY6ZEUm8KqyanSdRbm1jzQ/viewform?usp=sf_link" target="_blank">
                     <button class="px-4 md:px-6 py-2 md:py-3 bg-[#FF914C] hover:bg-[#FF7B29] text-white text-sm md:text-base font-semibold rounded-lg transition-all">
                         Student RSVP
                     </button>
                 </a>
+                
             </div>
             
             <!-- Navigation Arrows -->
@@ -183,11 +137,7 @@
         {#each slides as _, index}
             <button
                 class="w-3 h-3 rounded-full {index === currentSlide ? 'bg-white' : 'bg-gray-400'} hover:bg-white transition-all"
-                on:click={() => {
-                    currentSlide = index;
-                    stopAutoplay();
-                    startAutoplay();
-                }}
+                on:click={() => (currentSlide = index)}
             ></button>
         {/each}
     </div>
