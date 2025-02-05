@@ -1,6 +1,6 @@
 <script> 
 
-  // import WorkshopInfo from "./Workshop/WorkshopInfo.svelte";  
+  import WorkshopInfo from "./Workshop/WorkshopInfo.svelte";  
 </script>
     
     

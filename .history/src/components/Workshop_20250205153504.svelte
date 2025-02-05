@@ -1,11 +1,10 @@
 <script> 
 
-  // import WorkshopInfo from "./Workshop/WorkshopInfo.svelte";  
+  import WorkshopInfo from "./Workshop/WorkshopInfo.svelte";  
 </script>
     
     
     <main>
-      <!-- <WorkshopInfo /> -->
       <!-- Hero Section -->
     <section class="w-full h-[60vh] relative mb-0">
         <img 
