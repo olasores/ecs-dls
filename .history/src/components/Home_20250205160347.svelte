@@ -128,7 +128,7 @@ style="background-image: url('/assets/background.png');">
   <!-- Event Features Grid -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <!-- Card Component -->
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/k-note.png" alt="Keynote Speaker" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Keynote Speaker</h3>
@@ -138,7 +138,7 @@ style="background-image: url('/assets/background.png');">
       </div>
     </div>
 
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/p-new.png" alt="Engaging Panelists" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Engaging Panelists</h3>
@@ -148,7 +148,7 @@ style="background-image: url('/assets/background.png');">
       </div>
     </div>
 
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/n-new.png" alt="Networking Opportunities" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Networking Opportunities</h3>

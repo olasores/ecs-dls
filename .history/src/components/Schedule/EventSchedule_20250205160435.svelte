@@ -181,9 +181,9 @@ let events = {
     <!-- Divider -->
     <hr class="border-t-2 border-gray-300 mb-6">
     <!-- Events Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 transition-transform hover:scale-105">
       {#each events[selectedDay] as event}
-        <div class="flex bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+        <div class="flex bg-white shadow-md rounded-lg overflow-hidden">
           <!-- Image -->
           <div class="w-1/3">
             <img src={event.image} alt={event.title} class="w-full h-full object-cover" />

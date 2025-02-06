@@ -183,7 +183,7 @@ let events = {
     <!-- Events Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
       {#each events[selectedDay] as event}
-        <div class="flex bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+        <div class="flex bg-white shadow-md rounded-lg overflow-hidden">
           <!-- Image -->
           <div class="w-1/3">
             <img src={event.image} alt={event.title} class="w-full h-full object-cover" />

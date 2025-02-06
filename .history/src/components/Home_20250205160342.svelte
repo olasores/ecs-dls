@@ -110,7 +110,7 @@ style="background-image: url('/assets/background.png');">
 <!-- Content Wrapper -->
 <div class="relative w-full max-w-6xl">
   <!-- Event Theme Title -->
-  <div class="mb-12 flex flex-col items-center justify-center  ">
+  <div class="mb-12 flex flex-col items-center justify-center transition-transform hover:scale-105 ">
     
     <p class="text-sm font-semibold text-[#FF914C] flex justify-center md:justify-start items-center gap-2 uppercase tracking-wider">
       <span class="w-8 h-[1px] bg-[#FF914C]"></span>
@@ -128,7 +128,7 @@ style="background-image: url('/assets/background.png');">
   <!-- Event Features Grid -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
     <!-- Card Component -->
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/k-note.png" alt="Keynote Speaker" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Keynote Speaker</h3>
@@ -138,7 +138,7 @@ style="background-image: url('/assets/background.png');">
       </div>
     </div>
 
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/p-new.png" alt="Engaging Panelists" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Engaging Panelists</h3>
@@ -148,7 +148,7 @@ style="background-image: url('/assets/background.png');">
       </div>
     </div>
 
-    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col transition-transform hover:scale-105">
+    <div class="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col">
       <img src="/assets/n-new.png" alt="Networking Opportunities" class="w-full h-60 object-cover" />
       <div class="p-6 flex-1 flex flex-col justify-between">
         <h3 class="text-xl font-bold mb-2">Networking Opportunities</h3>
