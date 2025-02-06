@@ -22,8 +22,11 @@
     import beth from "../teamPhotos/Beth.png";
     import carrie from "../teamPhotos/Carrie.jpeg";
     import celine from "../teamPhotos/Celine.jpg";
+    import demi from "../teamPhotos/demi.jpg";
+    import dhara from "../teamPhotos/dhara.jpg";
     import fiona from "../teamPhotos/fiona.jpg";
     import joann from "../teamPhotos/Joann.jpg";
+    import julie from "../teamPhotos/julie.jpeg";
     import karina from "../teamPhotos/karina.jpg";
     import keang from "../teamPhotos/Keang.jpg";
     import kristine from "../teamPhotos/Kristine.jpg";
@@ -34,6 +37,7 @@
     import manasi from "../teamPhotos/Manasi.jpg";
     import ola from "../teamPhotos/Ola.jpg";
     import suhana from "../teamPhotos/Suhana.jpeg";
+    import samantha from "../teamPhotos/samantha.jpg";
     import riya from "../teamPhotos/Riya.jpg";
     import taylor from "../teamPhotos/Taylor.jpg";
 
@@ -66,6 +70,10 @@
         { name: 'Suhana Natalia', role: 'Operations Team Member', pronouns: '(She/Her)', image: suhana },
         { name: 'Carrie Appelt', role: 'Outreach Team Member', pronouns: '(She/Her)', image: carrie },
         { name: 'Joann Sum', role: 'Operations Team Member', pronouns: '(She/Her)', image: joann },
+        { name: 'Dhara Panchal', role: 'Social Media Team Member', pronouns: '(She/Her)', image: dhara },
+        { name: 'Demi Chen', role: 'Web Development Team Member', pronouns: '(She/Her)', image: demi },
+        { name: 'Julie Yun', role: 'Operations Team Member', pronouns: '(She/Her)', image: julie },
+        { name: 'Samantha Rehome', role: 'Outreach Team Member', pronouns: '(She/Her)', image: samantha },
     ];
 
 </script>
