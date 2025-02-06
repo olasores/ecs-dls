@@ -11,8 +11,7 @@
     import EventSchedule from "./Schedule/EventSchedule.svelte";
     import Sponsors from "./sponsors/Sponsors.svelte";
     import HGallery from "./Gallery/HGallery.svelte";
-    // import Countdown from "./countdown/Countdown.svelte";
-    import Countdowncopy from "./countdown/Countdown copy.svelte";
+    import Countdown from "./countdown/Countdown.svelte";
     import NewGal from "./Gallery/NewGal.svelte";
     
 
@@ -32,12 +31,13 @@
      <!-- try to make responsive -->
     <section class="bg-white w-full rounded-t-[100px] rounded-b-[100px] p-10  overflow-hidden relative -mt-[100px]">
       <div class="flex md justify-center items-center">
-        <!-- <h1 class="text-3xl font-bold mb-8 mr-20">
+        <h1 class="text-3xl font-bold mb-8 mr-20">
           The Countdown <span class="text-orange-300 text-3xl">begins</span>
-        </h1> -->
-        <!-- <Countdown /> -->
+        </h1>
+       
       </div>
-      <Countdowncopy />
+      <Countdown />
+
     </section>
 
 
