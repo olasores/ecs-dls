@@ -7,8 +7,8 @@
       "/assets/gallery/g-6.png",
       "/assets/gallery/g-7.png",
       "/assets/gallery/g-8.png",
-      "/assets/gallery/w-1.png",
       "/assets/gallery/g-9.png",
+      "/assets/gallery/g-10.png",
       "/assets/gallery/g-11.png",
     ];
   </script>
@@ -46,9 +46,20 @@
 
       
   
+      <!-- 2023 Events Gallery Box -->
+      <div class="bg-[#FF914C] hidden lg:flex text-white p-6  flex-col justify-center items-center">
+        <p class="text-sm uppercase tracking-wide mb-2">— Gallery</p>
+        <!-- <h3 class="text-3xl font-bold mb-2">2023</h3> -->
+        <p class="text-lg mb-4">Our Past Gallery</p>
+        <!-- <button 
+          class="px-6 py-2 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition"
+        >
+          View All Gallery
+        </button> -->
+      </div>
   
       <!-- Last Image -->
-      {#each images.slice(6, 8) as image}
+      {#each images.slice(6, ) as image}
         <div class="aspect-square overflow-hidden">
           <img 
             src={image} 

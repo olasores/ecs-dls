@@ -7,8 +7,8 @@
       "/assets/gallery/g-6.png",
       "/assets/gallery/g-7.png",
       "/assets/gallery/g-8.png",
-      "/assets/gallery/w-1.png",
       "/assets/gallery/g-9.png",
+      "/assets/gallery/g-10.png",
       "/assets/gallery/g-11.png",
     ];
   </script>
