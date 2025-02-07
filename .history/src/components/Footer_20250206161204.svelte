@@ -27,7 +27,7 @@
 
       <!-- Quick Links Column -->
       <div class="col-span-1">
-        <h3 class="text-white text-xl md:text-2xl font-semibold mb-4">Quick Links</h3>
+        <h3 class="text-white text-xs md:text-xl font-semibold mb-4">Quick Links</h3>
         <FooterLinkGroup ulClass="space-y-2">
           <FooterLink href="/" class="hover:text-white transition-colors">Home</FooterLink>
           <FooterLink href="/council" class="hover:text-white transition-colors">Council</FooterLink>
@@ -38,7 +38,7 @@
 
        <!-- Social Media Column -->
       <div class="col-span-1">
-        <h3 class="text-white text-xl md:text-2xl font-semibold mb-4">Connect With Us</h3>
+        <h3 class="text-white text-xs md:text-xl font-semibold mb-4">Connect With Us</h3>
         <FooterLinkGroup ulClass="space-y-2">
           <!-- <FooterLink href="https://linktr.ee/ecssummit2023" target="_blank" class="hover:text-white transition-colors flex items-center">
             <div class="flex ">
@@ -76,7 +76,7 @@
 
       <!-- Contact Info Column -->
       <div class="col-span-1">
-        <h3 class="text-white font-semibold text-xl md:text-2xl  mb-4">Contact Us</h3>
+        <h3 class="text-white font-semibold text-xs md:text-xl  mb-4">Contact Us</h3>
         <ul class="space-y-2">
           <li class="flex items-center">
             <span class="mr-2">📧</span>
@@ -96,13 +96,25 @@
 
     <!-- Bottom Bar -->
     <div class="mt-8 pt-8 border-t border-gray-700">
-      <div class="flex justify-center items-center">
+      <div class="flex flex-col md:flex-row justify-between items-center">
         <FooterCopyright 
           href="/" 
           by="ECS DLS" 
           year={currentYear} 
           class="text-gray-400"
         />
+        <FooterLinkGroup ulClass="flex space-x-6 mt-4 md:mt-0">
+          <FooterLink href="/privacy" class="text-sm text-gray-400 hover:text-white transition-colors">
+            Privacy Policy
+          </FooterLink>
+          
+          <FooterLink href="/terms" class="text-sm text-gray-400 hover:text-white transition-colors">
+            Terms of Service
+          </FooterLink>
+          <FooterLink href="/cookies" class="text-sm text-gray-400 hover:text-white transition-colors">
+            Cookie Policy
+          </FooterLink>
+        </FooterLinkGroup>
       </div>
     </div>
   </div>

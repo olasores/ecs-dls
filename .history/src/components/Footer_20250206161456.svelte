@@ -76,7 +76,7 @@
 
       <!-- Contact Info Column -->
       <div class="col-span-1">
-        <h3 class="text-white font-semibold text-xl md:text-2xl  mb-4">Contact Us</h3>
+        <h3 class="text-white font-semibold text-xs md:text-2xl  mb-4">Contact Us</h3>
         <ul class="space-y-2">
           <li class="flex items-center">
             <span class="mr-2">📧</span>
