@@ -13,7 +13,7 @@
       <h1>{teamTitle}</h1>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-2 mx-auto">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y- mx-auto">
     {#each team as member}
         <div class="team-member min-h-[250px] flex flex-col items-center">
             <TeamMember name={member.name} role={member.role} pronouns={member.pronouns} image={member.image} />

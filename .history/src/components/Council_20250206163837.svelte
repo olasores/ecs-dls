@@ -1,0 +1,107 @@
+<svelte:head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</svelte:head>
+
+
+<script>
+    import HeroSection from "./heroSection/HeroSection.svelte";
+    import images from "../imageData/images.json";
+
+    const heroImage = images[0];
+    const title = ["The 2025", "Summit Council"];
+    const subtitle = " Meet the team that made the ECS Diversity Summit possible.";
+
+    // icons https://feathericons.com/, https://github.com/unplugin/unplugin-icons
+    import Grid from "./grids/Grid.svelte";
+
+    // Import Images for the Members
+    import blankpfp from "/assets/teamPhotos/blankpfp.jpg";
+    import alexia from "/assets/teamPhotos/Alexia.jpg";
+    import beth from "/assets/teamPhotos/Beth.png";
+    import carrie from "/assets/teamPhotos/Carrie.jpeg";
+    import celine from "/assets/teamPhotos/Celine.jpg";
+    import demi from "/assets/teamPhotos/demi.jpg";
+    import dhara from "/assets/teamPhotos/dhara.jpg";
+    import fiona from "/assets/teamPhotos/fiona.jpg";
+    import joann from "/assets/teamPhotos/Joann.jpg";
+    import julie from "/assets/teamPhotos/julie.jpeg";
+    import karina from "/assets/teamPhotos/karina.jpg";
+    import keang from "/assets/teamPhotos/Keang.jpg";
+    import kristine from "/assets/teamPhotos/Kristine.jpg";
+    import kelsey from "/assets/teamPhotos/Kelsey.jpg";
+    import khushi from "/assets/teamPhotos/Khushi.jpg";
+    import lori from "/assets/teamPhotos/lori.jpg";
+    import lupita from "/assets/teamPhotos/Lupita.jpg";
+    import manasi from "/assets/teamPhotos/Manasi.jpg";
+    import ola from "../teamPhotos/Ola.jpg";
+    import suhana from "../teamPhotos/Suhana.jpeg";
+    import samantha from "../teamPhotos/samantha.jpg";
+    import riya from "../teamPhotos/Riya.jpg";
+    import taylor from "../teamPhotos/Taylor.jpg";
+
+    const coCoordinators = [
+        { name: 'Lupita Jumenez', role: 'Co-Lead Coordinator', pronouns: '(She/Her)', image: lupita },
+        { name: 'Manasi Patil', role: 'Co-Lead Coordinator', pronouns: '(She/Her)', image: manasi },
+    ]
+
+    const coordinators = [
+        { name: 'Taylor Livingston', role: 'Lead Student Advisor', pronouns: '(She/Her)', image: taylor },
+        { name: 'Oyinkansola Olayinka', role: 'Web Development Team Lead', pronouns: '(She/Her)', image: ola },
+        { name: 'Riya Jain', role: 'Industry Outreach Team Lead', pronouns: '(She/Her)', image: riya },
+        { name: 'Khushi Kaushik', role: 'Student Outreach Team Lead', pronouns: '(She/Her)', image: khushi },
+        { name: 'Fiona Keaney', role: 'Social Media Team Lead', pronouns: '(She/Her)', image: fiona },
+        { name: 'Kelsey Tang', role: 'Operations Team Lead', pronouns: '(She/Her)', image: kelsey },
+    ];
+
+    const advisors = [
+        { name: 'Beth Harnick-Shapiro', role: 'Faculty Advisor', pronouns: '(She/Her)', image: beth },
+        { name: 'Karina Vega', role: 'Staff Advisor & Operations Team Member', pronouns: '(She/Her)', image: karina }, 
+        { name: 'Toni Miller', role: 'Staff Advisor', pronouns: '(She/Her)', image: blankpfp }, 
+    ];
+
+    const councilMembers = [
+        { name: 'Keang Zheng Taing', role: 'Operations and Outreach Team Member', pronouns: '(He/Him)', image: keang },
+        { name: 'Kristine Vergara', role: 'Counsel Member', pronouns: '(She/Her)', image: kristine }, 
+        { name: 'Alexia Riley', role: 'Social Media & Outreach Team Member', pronouns: '(They/Them)', image: alexia },
+        { name: 'Celine Troung', role: 'Operations Team Member', pronouns: '(She/Her)', image: celine }, 
+        { name: 'Lori Cha', role: 'Web Development Team Member', pronouns: '(She/Her)', image: lori },
+        { name: 'Suhana Natalia', role: 'Operations Team Member', pronouns: '(She/Her)', image: suhana },
+        { name: 'Carrie Appelt', role: 'Outreach Team Member', pronouns: '(She/Her)', image: carrie },
+        { name: 'Joann Sum', role: 'Operations Team Member', pronouns: '(She/Her)', image: joann },
+        { name: 'Dhara Panchal', role: 'Social Media Team Member', pronouns: '(She/Her)', image: dhara },
+        { name: 'Demi Chen', role: 'Web Development Team Member', pronouns: '(She/Her)', image: demi },
+        { name: 'Julie Yun', role: 'Operations Team Member', pronouns: '(She/Her)', image: julie },
+        { name: 'Samantha Rehome', role: 'Outreach Team Member', pronouns: '(She/Her)', image: samantha },
+    ];
+
+</script>
+
+<main class="min-h-screen">
+    <!-- HERO PAGE -->
+<section class="bg-orange-300 w-full h-screen flex items-center justify-center">
+  <HeroSection {heroImage} {title} {subtitle}/>
+</section>   
+
+<!-- COORDINATORS -->
+<section class="justify-center p-8 px-24 md:px-32 lg:px-48">
+    <Grid teamTitle="Coordinators" team={coCoordinators} />
+</section>
+
+<!-- Team Leads -->
+<section class="p-8 px-24 md:px-32 lg:px-48">
+    <Grid teamTitle="" team={coordinators} />
+</section>
+
+<!-- Faculty Advisors -->
+<section class="p-8 px-24 md:px-32 lg:px-48">
+    <Grid teamTitle="Faculty Advisors" team={advisors} />
+</section>
+
+<!-- Council Members -->
+<section class="p-8 px-24 md:px-32 lg:px-48">
+    <Grid teamTitle="Council Members" team={councilMembers} />
+</section>
+
+</main>

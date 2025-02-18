@@ -1,12 +1,11 @@
 <script> 
 
-import Just from "./Just.svelte";
+import CouncilComp from "./Council/CouncilComp.svelte";
 
 </script>
 
 
 <main>
-    <Just />
 
 </main>
 

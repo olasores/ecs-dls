@@ -1,12 +1,11 @@
 <script> 
 
-import Just from "./Just.svelte";
+import Council
 
 </script>
 
 
 <main>
-    <Just />
 
 </main>
 

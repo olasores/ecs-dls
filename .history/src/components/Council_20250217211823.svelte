@@ -1,5 +1,6 @@
 <script> 
 
+import CouncilComp from "./Council/CouncilComp.svelte";
 import Just from "./Just.svelte";
 
 </script>
